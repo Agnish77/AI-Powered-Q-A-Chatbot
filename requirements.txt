@@ -1,4 +1,4 @@
-streamlit==1.37.1
+streamlit
 langchain==0.2.10
 langchain-core==0.2.10
 langchain-community==0.2.10
@@ -9,4 +9,4 @@ python-dotenv
 faiss-cpu
 pypdf
 sentence-transformers
-
+gradio
