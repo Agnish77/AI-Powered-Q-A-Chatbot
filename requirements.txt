@@ -1,11 +1,12 @@
-streamlit
-langchain
-langchain-community
-langchain-core
-langchain-text-splitters
+streamlit==1.37.1
+langchain==0.2.10
+langchain-core==0.2.10
+langchain-community==0.2.10
+langchain-text-splitters==0.2.2
 langchain-groq
 langchain-huggingface
 python-dotenv
 faiss-cpu
 pypdf
 sentence-transformers
+
