@@ -21,3 +21,4 @@ langchain-text-splitters
 faiss-cpu
 PyPDF2
 python-dotenv
+langchain.text_splitter
