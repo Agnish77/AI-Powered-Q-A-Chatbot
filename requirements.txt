@@ -13,3 +13,11 @@ pandas
 langchain_core
 langchain_groq
 tf-keras
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+faiss-cpu
+PyPDF2
+python-dotenv
