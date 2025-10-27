@@ -105,3 +105,13 @@ if query:
                 st.markdown(f"**📄 Chunk {i+1}:**")
                 st.write(doc.page_content)
                 st.divider()
+
+import gradio as gr
+
+def chat(message):
+    return f"You said: {message}"
+
+demo = gr.Interface(fn=chat, inputs="text", outputs="text", title="AI Chatbot")
+
+if __name__ == "__main__":
+    demo.launch()
